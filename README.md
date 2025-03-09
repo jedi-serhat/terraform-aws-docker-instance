@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "<jedi-serhat>/docker-instance/aws"
+    source = "jedi-serhat/docker-instance/aws"
     key_name = "clarusway"
 }
 
